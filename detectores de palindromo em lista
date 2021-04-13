@@ -7,3 +7,4 @@ for c in range(0,quantidade):
         print(f'\33[1:32m{itens[c]} é um palíndromo!\33[m')
     else:
         print(f'\33[1:31m{itens[c]} não é um palíndromo!')
+        
