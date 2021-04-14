@@ -5,6 +5,8 @@ while finalizar < 1:
     confirmar = str(input('Deseja continuar? S/N')).upper()
     if confirmar == 'N':
         finalizar = finalizar + 1
+    elif confirmar != (('S') and ('N')):
+        print('Parece que você não digitou "S" ou "N", vamos continuar...')
 quantidade = len(itens)
 cont = 0
 for c in range(0,quantidade):
