@@ -13,7 +13,7 @@ while True:
     for d in num:
         if d.isnumeric() == True:
             cpf.append(int(d))
-    print(f'\nCPF informado: {cpf[0:10]}',end='')
+    print(f'\nCPF informado: {cpf[0:11]}',end='')
     if len(cpf) == 11:
         print('\nVerificando se esse CPF é válido...\n')
         break
